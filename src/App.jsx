@@ -8,12 +8,14 @@ import TopNav from "./components/TopNav";
 function App() {
   return (
     <Router>
-      <TopNav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/place" element={<Place />} />
-      </Routes>
-      <Footer />
+      <div className="w-full overflow-x-clip">
+        <TopNav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/place" element={<Place />} />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 }
