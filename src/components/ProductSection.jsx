@@ -16,7 +16,7 @@ import frame14 from "../assets/frame14.svg";
 import frame15 from "../assets/frame15.svg";
 import frame16 from "../assets/frame16.svg";
 
-function ProductSection() {
+function ProductSection({ i }) {
   const frames = [
     frame1,
     frame2,
@@ -36,12 +36,14 @@ function ProductSection() {
     frame16,
   ];
 
+  const newFrames = frames.filter((_, index) => index < i);
+
   return (
     <div className="flex flex-col justify-center items-center p-0 gap-6 my-8 w-full">
       <div className="flex justify-between items-center sm:flex-row flex-col p-0 gap-6 mt-4 mb-10">
         <div className="flex flex-wrap justify-center gap-6">
-          {frames.map((frame, i) => (
-            <Image image={frame} i={i} />
+          {newFrames.map((frame, i) => (
+            <Image image={frame} key={i} />
           ))}
         </div>
       </div>
