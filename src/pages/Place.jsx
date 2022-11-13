@@ -3,7 +3,7 @@ import ProductSection from "../components/ProductSection";
 
 function Place() {
   return (
-    <div className="relative bg-[#FFFFFF]">
+    <div className="bg-[#FFFFFF]">
       <NavHeader />
       <ProductSection />
     </div>

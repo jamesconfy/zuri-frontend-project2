@@ -37,9 +37,9 @@ function ProductSection() {
   ];
 
   return (
-    <div className="absolute flex flex-col items-start p-0 gap-6 md:left-[100px] top-[250px]">
-      <div className="w-full flex justify-between items-center sm:flex-row flex-col p-0 gap-6 mt-4 mb-10">
-        <div className="flex flex-wrap sm:justify-start justify-center gap-6">
+    <div className="flex flex-col justify-center items-center p-0 gap-6 my-8 w-full">
+      <div className="flex justify-between items-center sm:flex-row flex-col p-0 gap-6 mt-4 mb-10">
+        <div className="flex flex-wrap justify-center gap-6">
           {frames.map((frame, i) => (
             <Image image={frame} i={i} />
           ))}
