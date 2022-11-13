@@ -5,7 +5,7 @@ function Place() {
   return (
     <div className="bg-[#FFFFFF]">
       <NavHeader />
-      <ProductSection />
+      <ProductSection i={16} />
     </div>
   );
 }
