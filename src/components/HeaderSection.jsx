@@ -18,7 +18,7 @@ function HeaderSection() {
       </div>
 
       <div className="flex flex-row gap-2 lg:mt-0 mt-5">
-        <div className="flex flex-col items-center justify-center gap-2 mt-[100px]">
+        <div className="flex flex-col items-center justify-center gap-2 md:mt-[100px]">
           <img src={image3} alt="image3" className="flex" />
           <img src={image4} alt="image4" className="flex" />
         </div>

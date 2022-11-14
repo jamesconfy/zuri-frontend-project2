@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaRegCopyright } from "react-icons
 
 function Footer() {
   return (
-    <footer className="md:flex md:flex-col justify-between items-center md:p-0 p-4 my-8 w-full bg-[#1D1D1E]">
+    <footer className="md:flex md:flex-col justify-between items-center md:p-0 p-4 w-full bg-[#1D1D1E]">
       <div className="md:flex grid justify-between md:items-center md:flex-row grid-cols-2 grid-rows-2 p-0 mt-4 mb-10 mx-auto md:w-5/6">
         <div className="flex flex-col gap-4 md:m-0 m-4">
           <div className="flex flex-row">
